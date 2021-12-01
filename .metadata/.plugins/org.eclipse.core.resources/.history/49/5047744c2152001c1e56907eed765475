@@ -1,0 +1,7 @@
+package runner;
+
+import org.testng.annotations.Test;
+
+
+//Uncomment @RunWith if you are using Junit to run test
+//@RunWith(Cucumber.class)

@@ -1,0 +1,8 @@
+package stepdefinitions;
+
+public class StepDef {
+	@Given("^User On webapp$")
+	public void user_On_webapp() throws Throwable {
+		System.out.print("Webapp is open");
+	}
+}

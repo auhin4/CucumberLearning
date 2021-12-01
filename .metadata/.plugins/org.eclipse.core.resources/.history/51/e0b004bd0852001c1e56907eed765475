@@ -1,0 +1,13 @@
+package stepdefinitions;
+import io.cucumber.java.en.Given;
+
+public class Registration {
+	
+	@Given("^User filled his information$")
+	public void i_open_app() throws Throwable {
+		System.out.println("Filled his information");
+	}
+	
+	
+}
+

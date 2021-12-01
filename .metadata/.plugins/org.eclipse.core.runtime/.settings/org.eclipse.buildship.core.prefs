@@ -1,0 +1,10 @@
+arguments=
+auto.sync=false
+eclipse.preferences.version=1
+experimental.module.support=false
+gradle.build.scans=false
+gradle.distribution=GRADLE_DISTRIBUTION(REMOTE_DISTRIBUTION(https\://services.gradle.org/distributions/gradle-7.3-all.zip))
+gradle.offline.mode=true
+jvm.arguments=
+show.console.view=true
+show.executions.view=true

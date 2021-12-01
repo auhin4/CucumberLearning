@@ -1,0 +1,29 @@
+package stepdefinitions;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import utility.Hook;
+
+public class GoogleSearch {
+	
+	private WebDriver driver;
+	
+	public GoogleSearch() {
+		this.driver = Hook.getDriver();
+	}
+	
+	@Given("^I open a browser$")
+	public void i_open_a_browser() throws Throwable {
+		System.out.println("Browser is opened successfully");
+	}
+	
+	
+}

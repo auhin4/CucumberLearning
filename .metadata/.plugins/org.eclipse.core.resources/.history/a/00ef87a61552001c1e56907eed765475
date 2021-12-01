@@ -1,0 +1,16 @@
+package stepdefinitions;
+
+public class Hooks {
+	@Before
+	public void Initial()
+	{
+		System.out.print("Before hook is invoked.");
+	}
+	
+	@After
+	public void Refresh()
+	{
+		System.out.print("After hook is invoked");
+	}
+	
+}
